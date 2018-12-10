@@ -1,0 +1,24 @@
+{
+  "name": "doc-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^2.1.5",
+    "docxtemplater-link-module": "^0.2.4",
+    "file-saver": "^2.0.0",
+    "jszip": "^2.6.1",
+    "jszip-utils": "0.0.2",
+    "parcel": "^1.10.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
